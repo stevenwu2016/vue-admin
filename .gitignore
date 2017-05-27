@@ -9,3 +9,5 @@ out
 gen
 node_modules
 dist
+index_prod.html
+npm-debug.log

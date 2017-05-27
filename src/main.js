@@ -18,7 +18,7 @@ Vue.use(iView);
 // 路由配置
 const RouterConfig = {
     mode: 'history',
-    routes: Routers
+    routes: Routers,
 };
 const router = new VueRouter(RouterConfig);
 
@@ -46,7 +46,7 @@ const store = new Vuex.Store({
     },
     actions: {
 
-    }
+    },
 });
 
 
@@ -54,5 +54,5 @@ new Vue({
     el: '#app',
     router: router,
     store: store,
-    render: h => h(App)
+    render: h => h(App),
 });

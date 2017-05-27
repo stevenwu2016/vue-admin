@@ -2,13 +2,18 @@
     "root": true,
     "parserOptions": {
         "ecmaVersion": 6,
-        "sourceType": "module"
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
     },
     "env": {
-        "browser": true
+        "browser": true,
+        "es6":true
     },
     "extends": "eslint:recommended",
     "plugins": ["html"],
+    "parser": "babel-eslint",
     "rules": {
         "indent": ["error", 4, {
             "SwitchCase": 1

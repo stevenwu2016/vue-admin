@@ -47,10 +47,10 @@
 </template>
 <script>
     export default {
-        data:function(){
+        data(){
             return {
-                       test:'gggggg'
-                   }
+                test: 'gggggg',
+            };
         },
         methods: {
             handleStart() {
